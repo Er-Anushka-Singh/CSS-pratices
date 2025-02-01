@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Background image </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #text{
+            background-color: rgb(209, 201, 203);
+            color: rgb(108, 101, 114,0.8);
+        }
+        main{
+            height: 200px;
+            background-color: blanchedalmond;
+        }
+        #product{
+           /* background shorthand property */
+           width: 200px;
+           height: 200px;
+           /* background-color: goldenrod;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-image:url(b.jpeg) ; */
+           background: goldenrod url(b.jpeg)
+           no-repeat center;
+        }
+        #product2{
+           background-image:url(jeans.jpeg) ;
+           width: 200px;
+           height: 500px;
+           background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="text">This is my nav bar</div>
+    </header>
+    <main>
+        <div id="product">Product 1</div>
+        <div id="product2">Product 2</div>
+    </main>
+    <footer></footer>
+</body>
+</html>
